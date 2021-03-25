@@ -28,9 +28,38 @@
     </p>
 
     <form id="survey-form">
-
-<input id="name" type="text" placeholder="Your Name"> <br>
-<input id="email" type="email" placeholder="Your Email">
+<label id="name-label" for="name">Name</label>
+<br>
+<input id="name" type="text" placeholder="Your Name" required> 
+<br>
+<label id="email-label" for="email">Email</label>
+<br>
+<input id="email" type="email" placeholder="Your Email" required>
+<br>
+<label id="number-label" for="number">Age</label>
+<br>
+<input id="number" type="number" placeholder="Your Age" min="18" max="150">
+<br>
+<label id="current-role" for="dropdown">Wich option best describes you?</label>
+<br>
+<select name="current-role" id="dropdown">
+  <option value="student">Student</option>
+  <option value="full_time_job">Full time job</option>
+  <option value="full_time_lerner">Full time lerner</option>
+  <option value="mistery">Prefer not to say</option>
+  <option value="other">Other</option>
+</select>
+<br>
+<label id="recommend" for="radio">Would you recommend Microverse?</label>
+<br>
+<input type="radio" id="definitely" name="recommend" value="definitely">
+<label id="label-definitely" for="definitely">Definitely</label>
+<br>
+<input type="radio" id="maybe" name="recommend" value="maybe">
+<label id="label-maybe" for="maybe">Maybe</label>
+<br>
+<input type="radio" id="not_sure" name="recommend" value="not_sure">
+<label id="label-not_sure" for="not_sure">Not sure</label>
 
 
     </form>

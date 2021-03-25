@@ -1,0 +1,13 @@
+body{
+  background:purple ;
+  font-size: 24px;
+}
+h1{
+text-align: center;
+}
+#description{
+  text-align: center;
+}
+div{
+  margin:auto;
+}
